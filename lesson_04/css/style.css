@@ -1,0 +1,76 @@
+@import url("reset.css");
+@import url("fonts.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Antic:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap');
+
+body {
+	font-family: "Antic", sans-serif;
+	font-size: 16px; 
+}
+
+.title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.text-intro{
+	color: burlywood;
+}
+.list {
+	font-family: "Playfair Display";
+	font-weight: 500;
+	font-size: 18px;
+	color: green;
+}
+
+.dish-1 {
+	font-family: "PFD";
+	font-style: italic;
+	text-align: center;
+}
+
+.dish-2 {
+	font-family: "PFD";
+	font-style: oblique;
+	text-align: right;
+}
+
+.dish-3 {
+	font-family: "Itim";
+	text-align: justify;
+}
+
+.dish-4 {
+	font-family: "Skrine";
+	text-align: right;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	text-decoration-style: wavy;
+}
+
+.dish-5 {
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+	text-decoration: overline;
+}
+
+.dish-6 {
+	text-decoration: line-through;
+	text-decoration-style: dotted;
+	letter-spacing: 5px;
+	white-space: nowrap;
+}
+
+.dish-7 {
+	line-height: 1.5;
+	text-transform: uppercase;
+	word-spacing: 6px;
+}
+.afterword {
+	text-decoration: underline;
+	text-decoration-style: double;
+	line-height: 2;
+}
+.link-to-top {
+	color: blue;
+	text-transform: capitalize;
+}
