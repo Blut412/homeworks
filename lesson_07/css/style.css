@@ -1,0 +1,159 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+.homework-title{
+	font-size: 100px;
+	padding: 20px;
+	text-align: center;
+	background-color: beige;
+}
+
+.game {
+	padding: 20px 0;
+	margin: 0 0 50px 0;
+	}
+.game-content {
+	max-width: 1200px;
+	margin: 0px auto;
+	background-image: url("../img/map3.jpg");
+}
+.game-description {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.game-title {
+	font-size: 50px;
+	font-weight: 800;
+	color: aqua;
+	margin: 0 0 20px 0;
+}
+.game-text {
+	font-size: 18px;
+	color: white;
+}
+.game-itself {
+}
+.game-pirate {
+	width: 100px;
+	height: 150px;
+	background-image: url("../img/pirate.avif");
+	background-size: contain;
+   
+}
+.game-path-01 {
+	width: 200px;
+	height: 20px;
+	margin: -20px 0 0 100px;
+}
+.game-path-02 {
+	width: 20px;
+	height: 130px;
+	margin: 0 0 0 280px;
+
+}
+.game-path-03 {
+	width: 160px;
+	height: 15px;
+	margin: 0 0 0 280px;
+}
+.game-path-04 {
+	width: 18px;
+	height: 220px;
+	margin: 0 0 0 422px;
+}
+.game-path-05 {
+	width: 80px;
+	height: 10px;
+	margin: 0 0 0 422px;
+}
+.game-path-06 {
+	width: 14px;
+	height: 100px;
+	margin: -100px 0 0 488px;
+}
+.game-path-07 {
+	width: 410px;
+	height: 20px;
+	margin: -100px 0 0 488px;
+}
+.game-path-08 {
+	width: 18px;
+	height: 200px;
+	margin: 0 0 0 880px;
+}
+.game-path-09 {
+	width: 180px;
+	height: 14px;
+	margin: 0 0 0 718px;
+}
+.game-path-10 {
+	width: 18px;
+	height: 50px;
+	margin: 0 0 0 718px;
+}
+.game-path-11 {
+   width: 440px;
+	height: 14px;
+	margin: 0 0 0 718px;
+}
+
+.game-treasures {
+	width: 250px;
+	height: 200px;
+	background-image: url("../img/chest.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: -200px 0 0 1000px;
+}
+
+[class*="path-"] {
+  visibility: hidden;
+}
+
+[class*="path-"] {
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.game-itself > *:hover + *,
+.game-itself > *:hover {
+  visibility: visible;
+}
+
+.checklist {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.checked-item {
+	min-height: 35px;
+	margin: 0 0 15px 0;
+	line-height: 1.7;
+	}
+.checked-item::before {
+	content: "";
+	display: inline-block;
+ 	background: url("../img/check.svg") center no-repeat;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	padding: 0 0 0 45px;
+	}
+
+.unchecked-item {
+	min-height: 35px;
+	margin: 0 0 15px 0;
+	line-height: 1.7;
+}
+.unchecked-item::before {
+	content: "";
+	display: inline-block;
+ 	background: url("../img/unchecked.svg") center no-repeat;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	padding: 0 0 0 45px;
+	}
